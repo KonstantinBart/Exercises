@@ -1,0 +1,6 @@
+packages
+.vscode
+.vs
+bin
+obj
+*.user
