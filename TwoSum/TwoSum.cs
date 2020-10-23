@@ -2,15 +2,9 @@
 
 namespace TwoSum
 {
-	class Program
+	public class TwoSum
 	{
-		static void Main(string[] args)
-		{
-			int[] result = TwoSum(new[] { 2, 7, 11, 15 }, 9);
-			Console.ReadLine();
-		}
-
-		public static int[] TwoSum(int[] nums, int target)
+		public static int[] GetTwoSum(int[] nums, int target)
 		{
 			for (int i = 0; i <= nums.Length - 1; i++)
 			{

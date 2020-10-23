@@ -4,16 +4,8 @@ using System.Linq;
 
 namespace ReverseInteger
 {
-    class Program
+    public class ReverseInteger
     {
-		static void Main(string[] args)
-		{
-			Console.WriteLine(Reverse(123));
-			Console.WriteLine(Reverse(-123));
-			Console.WriteLine(Reverse(120));
-			Console.ReadLine();
-		}
-
 		public static int Reverse(int x)
 		{
 			var isNegative = x < 0;
