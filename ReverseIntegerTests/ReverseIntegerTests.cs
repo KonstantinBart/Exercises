@@ -5,13 +5,13 @@ namespace ReverseInteger.Tests
     [TestFixture()]
     public class ReverseIntegerTests
     {
-        [Test()]
-        public void ReverseTests()
+        [TestCase(123, 321)]
+        [TestCase(-123, -321)]
+        [TestCase(120, 21)]
+        [TestCase(0, 0)]
+        public void ReverseTests(int source, int result)
         {
-            Assert.AreEqual(ReverseInteger.Reverse(123), 321);
-            Assert.AreEqual(ReverseInteger.Reverse(-123), -321);
-            Assert.AreEqual(ReverseInteger.Reverse(120), 21);
-            Assert.AreEqual(ReverseInteger.Reverse(0), 0);
+            Assert.AreEqual(ReverseInteger.Reverse(source), result);
         }
     }
 }
