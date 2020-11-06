@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreTheySame", "AreTheySame\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreTheySameTests", "AreTheySameTests\AreTheySameTests.csproj", "{9B28973D-E620-40D8-9667-F49E7AD33E0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{0686AF71-4A8D-49C7-9028-5920778478F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumberTests", "PalindromeNumberTests\PalindromeNumberTests.csproj", "{F6FBE02B-F1E8-4476-8176-5C23F59FEAD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{9B28973D-E620-40D8-9667-F49E7AD33E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B28973D-E620-40D8-9667-F49E7AD33E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B28973D-E620-40D8-9667-F49E7AD33E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0686AF71-4A8D-49C7-9028-5920778478F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0686AF71-4A8D-49C7-9028-5920778478F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0686AF71-4A8D-49C7-9028-5920778478F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0686AF71-4A8D-49C7-9028-5920778478F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FBE02B-F1E8-4476-8176-5C23F59FEAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FBE02B-F1E8-4476-8176-5C23F59FEAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FBE02B-F1E8-4476-8176-5C23F59FEAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FBE02B-F1E8-4476-8176-5C23F59FEAD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
