@@ -11,6 +11,8 @@ namespace PalindromeNumber.Tests
         [TestCase(-121, false)]
         [TestCase(10, false)]
         [TestCase(-101, false)]
+        [TestCase(0, true)]
+        [TestCase(11, true)]
         public void IsPalindromeTest(int source, bool result)
         {
             Assert.AreEqual(Solution.IsPalindrome(source), result);

@@ -8,17 +8,18 @@ namespace PalindromeNumber
         public static bool IsPalindrome(int x)
         {
             if (x < 0) return false;
+            if (x < 10) return true;
             var array = new List<int>();
             while(x != 0)
             {
                 array.Add(x % 10);
                 x /= 10;
             }
-            if(!array.Any() || array.Count <= 2)
+            if(!array.Any() || array.Count < 2)
             {
                 return false;
             }
-            while(array.Count > 2)
+            while(array.Count >= 2)
             {
                 var firstElement = array.First();
                 var lastElement = array.Last();
